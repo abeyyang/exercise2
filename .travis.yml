@@ -1,0 +1,6 @@
+language: node_js
+script: mocha
+before_script: npm install
+
+addons:
+  chrome: stable
